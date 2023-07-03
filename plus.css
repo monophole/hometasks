@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.elemental{
+    padding: 122px 10%;
+    display: flex;
+    gap: 90px;
+    background-color: black;
+}
+.card{
+    width: 300px;
+    height: 450px;
+    background: url(./photo_2023-05-29_02-47-33.jpg) no-repeat center/cover;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px dodgerblue;
+}
+.card__title{
+    color: white;
+    margin: auto;
+    margin-top: 500px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    text-shadow: 0px 0px 20px blueviolet;
+    padding-bottom: 5px;
+    width: 80%;
+    transition: .8s;
+    font-family: cursive;
+}
+.card:hover .card__title{
+    transform: translateY(-250px);
+}
+.card:hover .card__info{
+    transform: translateY(-250px);
+}
+.card:hover .card__btn{
+    transform: translateY(-250px);
+    background-color: white;
+    box-shadow:0px 0px 15px dodgerblue;
+    text-shadow: 0px 0px 10px black;
+    color: black;
+    cursor: pointer;
+    
+}
+.card__info{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 11px;
+    transition: .8s;
+    font-family: monospace;
+}
+.card__btn{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    background-color: rgb(80, 80, 104);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    transition: .8s;
+    font-family: cursive;
+}
